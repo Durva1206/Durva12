@@ -6,8 +6,50 @@
     <title>Second HTML</title>
 </head>
 <body>
+    <center><img src="./img/Durva.JPG" alt="Durva" srcset="" height="100" width="100"></center>
     <h1><center><b>Durva Pithwa</b></center></h1>
     <p><center>Hello! I'm Durva, student of K.J.Institute of Enginnering and Technilogy. I am studying Computer Engineering and I am in 5th sem of 3rd year degree. I learnt some coding language like C and Java, I can do coding in both languages. My hobby is Singing. I am currently learning Web devlopment.  </center></p>
+    
+
+    <h2>Basic Form</h2>
+    <form action="/submit_form" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <label for="address">Address:</label><br>
+        <textarea name="address" id="address" cols="20" rows="5"></textarea><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+        <label for="country">Country:</label><br>
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <label for="feedback">Feedback:</label><br>
+        <textarea name="feedback" id="feedback" cols="20" rows="10"></textarea><br><br>
+        <button type="submit">SUBMIT</button> <button type="reset">RESET</button>
+
+    </form>
 
 
 </body>
